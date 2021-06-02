@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>D2</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+ 
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="anatomia" src="./D2.gltf"></a-asset-item>
+          </a-assets>
+          <a-gltf-model src="#anatomia"position="0 -23.090 0"scale="3 3 3"></a-gltf-model>
+        <a-entity camera look-controls wasd-controls="acceleration:100" position="0 2.6 0"></a-entity>
+        <a-video width="16" height="9" position="-0.434 4.573 0.265"scale="0.330 0.330 1.000"src="FINAL Prueba 2.mp4"rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-video>
+        <a-sky src="Sin Ojos efecto super 8.mp4"></a-sky>
+        <a-assets>
+            <a-sound src="src: url(./Las Pantallas_mezcla2.mp3)" autoplay="true" loop="true" position="0 2 5"></a-sound>
+    </a-assets>
+    <!--
+ <h1>Bienvenidos</h1>
+ <h2>esto es una prueba</h2>
+ <img src="./1.png" alt="">
+ <img src="./1.png" width="200px" alt="">-->
+</body>
+</html> 
